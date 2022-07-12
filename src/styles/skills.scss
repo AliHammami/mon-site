@@ -1,0 +1,96 @@
+.container{
+  background: #FFFF;
+  margin-top: 3em;
+  padding: 20px;
+}
+
+.skillsContent{
+  width: 70%;
+  margin: auto
+}
+.skillsDisplay{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.skillsBarContainer{
+  // flex-direction: row;
+  //width: 80%;
+  margin: 1em 0;
+}
+
+h2{
+  color: #3A2E1F;
+  margin-bottom: 1.5em;
+}
+
+.skillsBar{
+  background-color: #FAF3EB;
+  height: 5px;
+  border-radius: .25rem;
+  width: 100%;
+  
+  .skillsHtml{
+    width: 90%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+  .skillsCss{
+    width: 90%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+  .skillsJavascript{
+    width: 80%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+  .skillsReact {
+    width: 80%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+  .skillsNode{
+    width: 60%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+  .skillsExpress{
+    width: 60%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+  .skillsMongo{
+    width: 50%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+  .skillsGraph {
+    width: 60%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+  .skillsPrisma {
+    width: 60%;
+    background-color: #A37945;
+    filter: drop-shadow(0 1px 1px #222);
+    display: inline-block;
+    height: 5px;
+  }
+}
