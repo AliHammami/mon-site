@@ -1,0 +1,48 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 1px 8px #ddd;
+  background-color: white;
+  height: 3em;
+  z-index: 99;
+  position: relative;
+  span{
+    font: var(--fnt,var(--font_5));
+    transition: var(--trans2,color .4s ease 0s);
+    color: #AFACA8;
+    position: relative;
+    white-space: nowrap;
+    margin: 0;
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  span:hover{
+    color: #382B19;
+  }
+}
+
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+  color: #AFACA8;
+}

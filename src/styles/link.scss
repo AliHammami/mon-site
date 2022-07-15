@@ -1,0 +1,13 @@
+.linkDiv{
+  padding: 20px;
+}
+
+.linkContent{
+  display: flex;
+  margin: 3em auto;
+  justify-content: space-evenly;
+  img{
+    cursor: pointer;
+    width: 5em;
+  }
+}

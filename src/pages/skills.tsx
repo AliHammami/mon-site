@@ -7,11 +7,6 @@ const Skills = () => {
     <div className="container">
       <Layout pageTitle="Mes compétences en détails ?">
         <div className="skillsContent">
-          <p>Je peux réaliser pour vous votre site web ce qui est indispensable pour améliorer la visibilité de ses activités.
-            Le développement de votre site web est réalisé avec soin et répond aux standards web du W3C le tout en html5 via React et css/scss.
-            Votre site sera bien entendu résponsive design, c'est à dire adaptabé à tous les écrans (ordinateur, tablette, téléphone).
-            Je peux également répondre à vos attentes en terme de développement back-end.
-          </p>
           <div className="skillsDisplay">
             <div className="skillsBarContainer">
               <h2>Mes compétences front-end</h2>

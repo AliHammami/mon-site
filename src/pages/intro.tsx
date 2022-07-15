@@ -6,7 +6,7 @@ import '../styles/intro.scss'
 const Intro = () => {
   return (
     <div className="introDiv">
-      <Layout pageTitle="Ali en quelques mots">
+      <Layout pageTitle="Qui je suis en quelques mots">
         <div className="introParagraph">
           <p>Développeur depuis maintenant 3 ans après m'être lancé dans l'apprentissage du développement 
             web via dans un premier temps la plateforme OpenClassRoom puis par la suite la formation O'Clock. 
